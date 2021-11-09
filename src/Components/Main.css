@@ -1,0 +1,36 @@
+.results {
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+li {
+    background-color: #7d7d7d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    margin: 20px;
+    padding: 10px;
+    border: 3px #3d3d3d solid;
+}
+
+img {
+    border: 2px #3d3d3d solid;
+    width: 25%;
+    height: 200px;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: indigo;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+}

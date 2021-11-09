@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #0000cd;
+  border: 1px #0000cd solid;
+  text-align: center;
+}
+
+h1 {
+  color: white
+}
+
+.searchBar {
+  height: 40px;
+  background-color: #4d4d4d;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchBar button {
+  transition-duration: 0.4s;
+}
+
+.searchBar button:hover {
+  background-color: #0000cd; 
+  color: white;
+}
+
+.filters {
+  background-color: gray;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.printType {
+  margin-right: 10%;   
+}
